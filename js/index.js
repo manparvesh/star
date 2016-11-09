@@ -1,5 +1,5 @@
-//alert($.url().param('i'));
-function getParameterByName(name, url) {
+alert($.url().param('i'));
+/*function getParameterByName(name, url) {
     if (!url) {
       url = window.location.href;
     }
@@ -12,4 +12,4 @@ function getParameterByName(name, url) {
 }
 
 var i = getParameterByName('i');
-alert(i);
+alert(i); */
