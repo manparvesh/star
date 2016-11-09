@@ -1,1 +1,2 @@
-alert($.url().param('i'));
+//alert($.url().param('i'));
+$('#i').text($.url().param('i'));
