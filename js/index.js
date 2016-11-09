@@ -1,4 +1,9 @@
 alert($.url().param('i'));
+$(':radio').change(
+  function(){
+    $('.choice').text( this.value + ' stars' );
+  }
+)
 /*function getParameterByName(name, url) {
     if (!url) {
       url = window.location.href;
